@@ -15,7 +15,8 @@ def on_release(key):
 
 def start():
     try:
-        
+        content = driver.find_element_by_class_name("test-text-area test-text-area-font")
+        print(content)
     except:
         print(Exception)
 
